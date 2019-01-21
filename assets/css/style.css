@@ -1,0 +1,111 @@
+﻿html{
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    min-height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#header {
+    background-image: linear-gradient(to right, #1E5A94, #23995C);
+    color: white;
+    font-size: 1.5em;
+    text-transform: capitalize;
+    letter-spacing: -2px;
+    display: flex;
+    height: 155px;
+    min-width: 705px;
+    justify-content: center;
+    align-items: center;
+}
+
+#searchBar {
+    margin: 25px;
+    height: auto;
+    display: flex;
+    min-width: 660px;
+}
+
+input[type="text"] {
+    border-radius: 3px;
+    border: #AAAAAA 1.5px solid;
+    margin-right: 25px;
+    height: 55px;
+    padding: 0 0 0 15px;
+    flex: 1;
+    font-size: 2em;
+}
+
+#searchBar button {
+    background: #23995C;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    height: 58px;
+    width: 58px;
+    padding: 0;
+    box-shadow: 0px 1.5px 1.5px #AAAAAA;
+}
+
+.searchResult {
+    display: flex;
+    margin: 0 25px;
+    min-height: 100px;
+}
+
+i.fa-star {
+    color: #AAAAAA;
+    font-size: 1.5em;
+    padding-right: 20px;
+}
+
+div.button i.selected {
+    color: #23995C;
+}
+
+div.Results > p {
+    font-size: 1.5em;
+    margin: 0 25px;
+}
+
+.itemTitle {
+    flex: 5;
+    font-size: 1.5em;
+    min-width: 270px;
+}
+
+.itemDesc {
+    flex: 7;
+    font-size: 1.3em;
+    padding-left: 35px;
+    min-width: 330px;
+}
+
+ul {
+    margin: 0 0 35px 0;
+    padding: 0;
+}
+
+li{
+    padding-bottom: 15px;
+}
+
+#favourites {
+    background: #F7FEFA;
+    height: auto;
+    min-height: 200px;
+    bottom: 0;
+    width: 100%;
+}
+
+h2 {
+    color: #23995C;
+    font-size: 2.5em;
+    letter-spacing: -1px;
+    margin: 25px;
+}
