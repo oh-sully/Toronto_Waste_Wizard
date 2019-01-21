@@ -2,7 +2,7 @@
 
 A web app to search for waste items how to properly dispose of them using the Toronto Waste Wizard database, and save frequently used ones. Created for a Web Engineer Internship application (See description below).
 
-[Live application](https://oh-sully.github.io)  
+[Live application](https://oh-sully.github.io/Toronto_Waste_Wizard/)  
 
 
 # Web Engineer Challenge - Summer 2019
@@ -33,5 +33,5 @@ Build a web app to search for waste items using the Toronto Waste Wizard databas
 
 In your application, please include: 
 
-1. A link to your [codebase](https://github.com/oh-sully/oh-sully.github.io), for review.
-2. A link to a [hosted version](https://oh-sully.github.io), for testing.
+1. A link to your [codebase](https://github.com/oh-sully/Toronto_Waste_Wizard), for review.
+2. A link to a [hosted version](https://oh-sully.github.io/Toronto_Waste_Wizard/), for testing.
